@@ -1,0 +1,26 @@
+{
+  "name": "dep-slim",
+  "version": "0.1.0",
+  "description": "Check redundant packages.",
+  "main": "index.js",
+  "bin": {
+    "dep-slim": "./bin/depSlim.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "dep-slim"
+  ],
+  "author": "yyuan2",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "string-length": "^2.0.0",
+    "text-table": "^0.2.0"
+  }
+}
